@@ -1,0 +1,35 @@
+# Build files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.d
+
+# Compiler specific
+*.lst
+*.map
+*.srec
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.launch
+*.swp
+*.swo
+
+# Eclipse
+.settings/
+.metadata/
+
+# Build output (Debug folder inside FreeRTOS_Projects)
+FreeRTOS_Projects/Debug/
+
+# Other
+.DS_Store
+Thumbs.db
